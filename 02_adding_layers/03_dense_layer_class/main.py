@@ -9,7 +9,7 @@ class Layer_Dense:
     def __init__(self,n_imputs,n_neurons):
         # initializing weights and bias
         self.weights= 0.01* np.random.randn(n_imputs, n_neurons) 
-        # np.random.randn produces a Gaussian distribution with amean of 0 and a variance of 1, multiply by 0.01 to make the numbers a magnitude smaller to reduce time taken by the model to fit.
+        # np.random.randn produces a Gaussian distribution with a mean of 0 and a variance of 1, multiply by 0.01 to make the numbers a magnitude smaller to reduce time taken by the model to fit.
         self.bias=np.zeros((1,n_neurons))
 # since we are setting weights to inputs, neurons and not neurons input like the convention, there is no need to transpose weights.
 
