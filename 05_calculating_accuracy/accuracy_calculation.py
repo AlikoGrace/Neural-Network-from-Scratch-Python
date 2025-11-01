@@ -9,6 +9,7 @@ softmax_outputs = np.array([[0.7, 0.2, 0.1],
 # Target (ground-truths) labels for 3 samples
 class_targets = np.array([0, 1, 1])
 
+#  argmax means: find index of the largest value, the actuual preditctions
 # Calculate values along second axis (axis of index 1)
 predictions = np.argmax(softmax_outputs, axis=1)
 
