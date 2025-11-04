@@ -20,3 +20,4 @@ y = max(z, 0)
 print(y)
 
 # ReLU=summation-sign([inputs.weights]+bias)
+# y = ReLU(sum(mul(x 0 , w 0 ), mul(x 1 , w 1 ), mul(x 2 , w 2 ), b))
